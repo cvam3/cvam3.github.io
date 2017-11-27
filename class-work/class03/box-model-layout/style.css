@@ -1,0 +1,40 @@
+body {
+    background: white;
+    text-align: center;
+}
+
+.greybox {
+    background: lightgrey;
+    width: 1000px;
+    height: 260px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: black;
+    text-align: 0 align-self: auto;
+    color: white;
+    padding: 10px;
+    margin: 0px 10px 20px 10px;
+}
+
+p {
+    background-color: orangered;
+    text-align: 0 align-self: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+.one {
+color: purple;
+margin: 30px, 0px, 0px, 0px;
+}
+
+.two {
+    color: green;
+}
+
+.three {
+    color: yellow;
+}
