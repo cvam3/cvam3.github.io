@@ -1,0 +1,46 @@
+header, footer {
+    height: 100px;
+}
+
+section, aside {
+    height: 300px;
+}
+
+span {
+    height: 150px;
+}
+
+header {
+    background: red;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    background: green;
+    width: 50%;
+}
+
+aside {
+    background: blue;
+    width: 50%;
+}
+
+footer {
+    background: yellow;
+}
+
+div {
+    display: flex;
+}
+
+span {
+    width: 33.333%;
+}
+
+.one {
+    background: black;
+    width: 33.333%
+}
