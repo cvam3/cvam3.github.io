@@ -1,0 +1,98 @@
+
+
+body {
+    height: 10000px;
+    background-image: url("assets/background.svg");
+    background-repeat: repeat-y;
+}
+
+body:after {
+    background-image: url("assets/line.svg");
+    background-repeat: no-repeat; 
+    content: '';
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.overlay {
+    /* background-image: url("assets/line.svg");
+    background-repeat: no-repeat; 
+    background-size: contain; */
+
+    /* width: 100%;
+    background-image: url(assets/line.svg);
+    background-size: cover;
+    height: auto;
+    padding: 0;
+    padding-bottom: calc(100% * 3 / 4);
+    background-repeat: no-repeat; */
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    align-items: center;
+}
+
+.hamburger {
+    margin-left: 5%;
+}
+
+.logo {
+    margin-right: 5%;
+    background-image: url("assets/logo.svg");
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+}
+
+/* Landing Page */
+
+.landing {
+    display: flex;
+    margin-left: 15%;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: calc(7vw + 1px);
+    margin: 10% 0 1% 0;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: calc(3.5vw + 1px);
+    margin: 1% 0 0 0;
+}
+
+h3 {
+    font-family: Open Sans;
+    font-size: calc(1.75vw + 1px);
+}
+
+h4 {
+    margin-left: 35%;
+    font-family: Open Sans;
+    font-size: calc(1.75vw + 1px);
+}
+
+/* Designed Section */
+
+.designed {
+display: flex;
+margin-left: 20%;
+flex-direction: row;
+justify-content: space-between;
+font-family: Open Sans;
+}
+
+

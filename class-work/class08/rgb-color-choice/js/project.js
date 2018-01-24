@@ -5,11 +5,11 @@ document.getElementById('color-button').onclick = changeColor;
 // 2. Write a function, named changeColor, that is called when #color-button is clicked
 
 
-function changeColor () {
+function changeColor() {
     var red = document.getElementById('red').value;
     var green = document.getElementById('green').value;
     var blue = document.getElementById('blue').value;
-    var colorStr = "rgb("+ red +", "+ green +", "+ blue +")";
+    var colorStr = "rgb(" + red + ", " + green + ", " + blue + ")";
     document.querySelector('#colorful-text').innerHTML = colorStr;
     document.querySelector('#wrapper').style.background = colorStr;
 }
